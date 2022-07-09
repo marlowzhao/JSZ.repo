@@ -1,9 +1,11 @@
 
 
 <div class="d-flex end">
-
   <button type="button" class="btn btn-success">Add a moive</button>
 </div>
 
 
 <h1><%= @list.name %></h1>
+<h2> url: '<%= @list.pic_url %>'</h2>
+<h2><%= @list.description %></h2>
+<div class="container-list-img" style="background-image: url('<%= @list.pic_url %>')"></div>

@@ -1,15 +1,20 @@
-<div class="container-up" class="center">
+<div class="container-up">
 <img src="https://www.wiwo.de/images/die-kinos-eroeffnen/27375084/3-format1007.jpg" alt="cinema" class="center">
+</div>
+
+
+<div class="container-mid">
 </div>
 
 <div class="container d-flex justify-content-between">
   <p>My Lists</p>
-  <button type="button" class="btn btn-success"><%= link_to 'create a movie list', new_list_path %></button>
+
+  <%= link_to 'create a movie list', new_list_path, class: "btn btn-success"%>
 
 </div>
 
 
-<div>
+<div class="container">
   <ul>
   <% @lists.each do |list| %>
     <%=link_to list_path(list) do %>
