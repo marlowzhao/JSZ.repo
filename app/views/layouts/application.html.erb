@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <div>
+      <%= link_to 'My Lists', lists_path %>
+      <%= link_to 'New List', new_list_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
