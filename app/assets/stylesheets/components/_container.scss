@@ -30,7 +30,7 @@
    url(https://www.wiwo.de/images/die-kinos-eroeffnen/27375084/3-format1007.jpg);
   margin: auto;
   width: 1000px;
-  height: 300px;
+  height: 350px;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -46,9 +46,14 @@
  height: 25px;
 }
 
+.container-mid-show {
+  margin: auto;
+  width: 700px;
+  height: 40px;
+ }
 
 .container-list-img {
-  width: 700px;
+  width: 1000px;
   height: 350px;
   padding: 150px;
   margin: auto;

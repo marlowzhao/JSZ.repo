@@ -13,11 +13,15 @@
 </div>
 
 <div class="container">
-  <ul>
-  <% @lists.each do |list| %>
-    <%=link_to list_path(list) do %>
-      <li><%= list.name %></li>
-    <% end %>
-  <% end %>
-  </ul>
+  <div class="cards">
+    <div class='movie-card'>
+      <% @lists.each do |list| %>
+        <%=link_to list_path(list) do %>
+        <div style="background-image: url('<%= list.pic_url %>')">
+          <%= list.name %>
+        </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
 </div>
