@@ -1,9 +1,13 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
 }
 
 .movie-card {
-  height: 100px
+  height: 150px;
+  border-style: solid;
+  border-color: #1f1a1a29;
+
+  border-radius:15px;
 }
