@@ -21,15 +21,27 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
  }
 
+.container-background {
+  width: 1400px;
+  height: 700px;
+  padding: 100px;
+  border-radius: 15px;
+  margin: auto;
+  background-image: linear-gradient(to right bottom,
+  #474e48,
+  #a988881f);
+}
+
+
 .container-up {
   background-image: linear-gradient(
     to right bottom,
-    #0000ff24,
+    #2d2d3296,
     #3a008069,
   ),
    url(https://www.wiwo.de/images/die-kinos-eroeffnen/27375084/3-format1007.jpg);
   margin: auto;
-  width: 1000px;
+  width: 700px;
   height: 350px;
   justify-content: center;
   display: flex;
@@ -53,12 +65,12 @@
  }
 
 .container-list-img {
-  width: 1000px;
+  width: 700px;
   height: 350px;
   padding: 150px;
   margin: auto;
   background-position: center;
-  color: #1b191bb0;
+  color: #e4d9c6ab;
   font-size: 36px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);

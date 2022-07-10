@@ -7,7 +7,7 @@
 
 <div class="container d-flex justify-content-between">
   <p>My Lists</p>
-  <%= link_to 'create a movie list', new_list_path, class: "btn btn-success"%>
+  <%= link_to 'create a movie list', new_list_path, class: "btn btn-outline-secondary"%>
 </div>
 
 <div class="container-mid">
@@ -19,7 +19,9 @@
       <% @lists.each do |list| %>
         <%=link_to list_path(list) do %>
         <div  class='movie-card' style="background-image: url('<%= list.pic_url %>')">
-          <%= list.name %>
+          <p>
+            <%= list.name %>
+          </p>
         </div>
         <% end %>
       <% end %>
