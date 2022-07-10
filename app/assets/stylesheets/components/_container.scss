@@ -1,22 +1,45 @@
 .container {
   width: 1000px;
-  justify-content: flex;
+ }
+ .container-home {
+  background-image: linear-gradient(
+        to right bottom,
+        #0000ff24,
+        #3a008069,
+  ),
+      url(https://www.listchallenges.com/f/lists/afef73ac-4a45-460d-937b-6bcae5c85b1d.jpg);
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  padding: 200px;
+  text-align: center;
+  color: #e4d9c6ab;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
  }
 
 .container-up {
-  margin-left: 200px;
+  background-image: linear-gradient(
+    to right bottom,
+    #0000ff24,
+    #3a008069,
+  ),
+   url(https://www.wiwo.de/images/die-kinos-eroeffnen/27375084/3-format1007.jpg);
+  margin: auto;
   width: 1000px;
   height: 300px;
   justify-content: center;
   display: flex;
   align-items: center;
-  color: white;
+  color: #e4d9c6ab;
   font-size: 36px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-
 }
 
 .container-mid {
@@ -25,10 +48,17 @@
 
 
 .container-list-img {
-  width: 300px;
-  height: 150px;
-  object-fit: cover;
+  width: 700px;
+  height: 350px;
+  padding: 150px;
+  margin: auto;
   background-position: center;
+  color: #1b191bb0;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .avatar-square {

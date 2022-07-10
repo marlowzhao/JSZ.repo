@@ -4,7 +4,6 @@
   <button type="button" class="btn btn-success">Add a moive</button>
 </div>
 
-
-<h1><%= @list.name %></h1>
-
-<div class="container-list-img" style="background-image: url('<%= @list.pic_url %>')"></div>
+<div class="container-list-img" style="background-image: url('<%= @list.pic_url %>')">
+<%= @list.name %>
+</div>
